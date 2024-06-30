@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  
+   
+}
+
+body{
+
+
+  background-color: 
+  white
+
+
+;
+  
+    font-weight: 500 !important;
+    color: white;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.navbar{
+  width: 100%;
+}
+.navbar .navbar-nav .nav-item a{
+    padding: 1rem;
+}
+.navbar .navbar-nav .nav-but{
+    padding: 0.5rem;
+}
+
+
+.navbar-nav a:hover {
+  
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+
+  
+  
+}
+
+  .navbar{
+    --bs-navbar-brand-color:white;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+  }
+  .cushadow{
+    
+      --bs-navbar-brand-color:white;
+      -webkit-box-shadow: 0 8px 6px -6px #999;
+      -moz-box-shadow: 0 8px 6px -6px #999;
+      box-shadow: 0 8px 6px -6px #999;
+      
+  
+  }
+ /* carousel */
+ .carousel-inner > .carousel-item > img {
+    width: 80%;
+    height:400px;
+    object-fit: cover;
+  }
+  /* footer */
+ 
+  .footer-icons i {
+    font-size: 1.5rem;
+  }
+  ul.pb-0{
+    margin:0 auto ;
+    padding-left: 0;
+  }
+  .footer-icons .list-inline-item{
+    margin-right: 2.5rem;
+    
+  }
+  .footer-icons .fab{
+    color: white;
+  }
+  .footer-icons .fab:hover{
+    color: #333333;
+  }
+  .footer-icons .twitter{
+    margin-right: 0;
+
+  }
+
+  .body-text{
+    color: #333333;
+    
+    
+  }
+p.lead{
+  text-align:inherit;
+  line-height: 2.3rem;
+  width: 93%;
+margin:1.5rem auto;
+
+
+}  
+#back-to-top {
+  display: none; /* Hide by default */
+  position: fixed; /* Stay in place */
+  bottom: 20px; /* Position from bottom */
+  right: 30px; /* Position from right */
+  z-index: 99; /* Higher than other elements */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+}
