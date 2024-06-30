@@ -2,6 +2,8 @@
 
 This repository contains the frontend for the **In A Box** website, a food service company. The website is developed using HTML, CSS, and Bootstrap, providing a responsive and user-friendly experience. It features detailed product and service information, meal planners, nutritional apps, weekly recipe recommendations, and special occasion gift boxes.
 
+live website link ===> https://in-a-box-git-main-khinekothant-githubs-projects.vercel.app/
+
 ## ✨ Features
 
 - 📦 Detailed product and service information
