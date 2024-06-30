@@ -38,7 +38,7 @@ Ensure you have the following installed on your local machine:
    ```bash
    git clone https://github.com/your-username/in-a-box-website.git
 
-2. **Navigate to the project directory:**
+2. **Navigate to the project directory previouly cloned:**
 
    ```bash
    cd in-a-box-website
